@@ -20,13 +20,12 @@ A basic C program that performs the following file operations:
 **File Name:** `task_1.c`  
 **Output File:** `codtech.txt`
 
-**🛠 How to Run (in terminal):**
+**How to Run (in terminal):**
 ```bash
 gcc task_1.c -o task_1
 ./task_1
 
-### ✅ Task 2: Singly Linked List in C
-
+### Task 2: Singly Linked List in C
 **Description:**  
 This C program implements a basic singly linked list with:
 - Insertion at the end
@@ -35,7 +34,7 @@ This C program implements a basic singly linked list with:
 
 **File Name:** `task_2.c`
 
-#### 🧪 Sample Test Input:
+#### Sample Test Input:
 1 → 10  
 1 → 20  
 1 → 30  
@@ -43,7 +42,7 @@ This C program implements a basic singly linked list with:
 2 → 20 (delete)  
 3 →  Display
 
-#### 🔧 How to Run:
+#### How to Run:
 ```bash
 gcc task_2.c -o task_2
 ./task_2
