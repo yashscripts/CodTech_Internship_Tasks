@@ -21,7 +21,7 @@ A basic C program that performs the following file operations:
 **Output File:** `codtech.txt`
 
 **How to Run (in terminal):**
-```bash
+bash
 gcc task_1.c -o task_1
 ./task_1
 
@@ -43,6 +43,6 @@ This C program implements a basic singly linked list with:
 3 →  Display
 
 #### How to Run:
-```bash
+bash
 gcc task_2.c -o task_2
 ./task_2
