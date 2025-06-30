@@ -54,18 +54,22 @@ gcc task_2.c -o task_2
 ### ✅ Task 3: Lexical Analyzer in C
 
 **Description:**  
-This program reads a C source code file and performs basic **lexical analysis**. It identifies:
-- **Keywords** (like `int`, `while`, `return`, etc.)
-- **Operators** (like `+`, `-`, `=`, etc.)
-- **Identifiers** (variable/function names that are not keywords)
+This C program performs a basic lexical analysis on a given `input.c` file. It:
+- Identifies **keywords** (e.g., `int`, `float`, `return`)
+- Identifies **operators** (e.g., `=`, `+`)
+- Treats all other valid tokens as **identifiers** (e.g., `main`, `x`, `y`, `5`, `2`, etc.)
 
-**File Name:** `task_3.c`  
-**Input File Name:** `input.c` (contains sample C code for analysis)
 
-#### 🧪 Sample `input.c` (used for testing)
-``c
+** Files:**
+- `task_3.c` → Lexical analyzer source code
+- `input.c` → Sample input C code for analysis
+
+
+###  Sample `input.c` (used for testing):
+
+```c
 int main() {
-    int a = 5, b = 10;
-    a = a + b;
-    return a;
+    int x = 5;
+    float y = x + 2;
+    return 0;
 }
