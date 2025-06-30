@@ -6,8 +6,9 @@
 *Mentor* : Neela Santhosh
 
 ## Table of Contents
-- [✅ Task 1: File Handling](#task-1-file-handling-in-c)
-- [✅ Task 2: Singly Linked List](#task-2-singly-linked-list-in-c)
+- [✅ Task 1: File Handling]
+- [✅ Task 2: Singly Linked List]
+- [✅ Task 3: Lexical Analyzer in C]
 
 ### Task 1: File Handling in C
 **Description:**
@@ -25,6 +26,7 @@ bash
 gcc task_1.c -o task_1
 ./task_1
 
+---
 ### Task 2: Singly Linked List in C
 **Description:**  
 This C program implements a basic singly linked list with:
@@ -42,7 +44,28 @@ This C program implements a basic singly linked list with:
 2 → 20 (delete)  
 3 →  Display
 
-#### How to Run:
+**How to Run (in terminal):**
 bash
 gcc task_2.c -o task_2
 ./task_2
+
+
+---
+### ✅ Task 3: Lexical Analyzer in C
+
+**Description:**  
+This program reads a C source code file and performs basic **lexical analysis**. It identifies:
+- **Keywords** (like `int`, `while`, `return`, etc.)
+- **Operators** (like `+`, `-`, `=`, etc.)
+- **Identifiers** (variable/function names that are not keywords)
+
+**File Name:** `task_3.c`  
+**Input File Name:** `input.c` (contains sample C code for analysis)
+
+#### 🧪 Sample `input.c` (used for testing)
+``c
+int main() {
+    int a = 5, b = 10;
+    a = a + b;
+    return a;
+}
