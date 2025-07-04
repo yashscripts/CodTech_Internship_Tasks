@@ -9,6 +9,7 @@
 - [✅ Task 1: File Handling]
 - [✅ Task 2: Singly Linked List]
 - [✅ Task 3: Lexical Analyzer in C]
+- [✅ Task 4: Run-Length Encoding (RLE)]
 
 ### Task 1: File Handling in C
 **Description:**
@@ -22,7 +23,6 @@ A basic C program that performs the following file operations:
 **Output File:** `codtech.txt`
 
 **How to Run (in terminal):**
-bash
 gcc task_1.c -o task_1
 ./task_1
 
@@ -45,7 +45,6 @@ This C program implements a basic singly linked list with:
 3 →  Display
 
 **How to Run (in terminal):**
-bash
 gcc task_2.c -o task_2
 ./task_2
 
@@ -73,3 +72,42 @@ int main() {
     float y = x + 2;
     return 0;
 }
+```
+---
+
+### ✅ Task 4: Run-Length Encoding in C
+
+**Description:**
+This program compresses text using Run-Length Encoding (RLE):
+
+Reads from input.txt
+
+Writes compressed result to compressed.txt
+
+Files: task_4.c
+
+input.txt → Contains original text
+compressed.txt → Output file
+
+Sample input.txt: AAABBBCCDAA
+Output (compressed.txt): A3B3C2D1A2
+How to Run: gcc task_4.c -o task_4
+./task_4
+
+---
+### Tools Used:
+-GCC Compiler (C Language)
+-Visual Studio Code (VS Code)
+-GitHub (Version Control)
+-Manual Testing with Sample Input Files
+
+### About Me:
+I'm currently learning programming through practical internships and real-world tasks. These projects helped me explore:
+
+-File Handling
+-Data Structures
+-Basic Compiler Concepts
+-Simple Compression Techniques
+
+Thank you for checking out my work!
+
